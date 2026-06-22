@@ -1,12 +1,10 @@
-using System.Data.Common;
 using DotNetEnv;
 using Microsoft.EntityFrameworkCore;
-using Microsoft.Extensions.Options;
 
 var builder = WebApplication.CreateBuilder(args);
 
 // Load environment variables from .env
-Env.Load();
+Env.Load("../.env");
 
 var connectionString = Environment.GetEnvironmentVariable("MSSQL_CONNECTION_STRING") 
     ?? throw new InvalidOperationException(
