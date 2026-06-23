@@ -1,0 +1,18 @@
+.searchBarStyle {
+    display: flex;
+    flex-direction: row;
+    gap: 1rem;
+}
+
+.searchBarStyle input{
+    width: 35vw;
+    background: var(--colour-background-light);
+    color: white;
+    height: 5vh;
+    border-radius: 25px;
+    font-size: 1.5rem;
+    padding: 0 1rem 0 1rem;
+    border-color: var(--colour-static-blue);
+}
+
+

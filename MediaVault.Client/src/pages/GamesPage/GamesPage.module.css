@@ -1,0 +1,21 @@
+.gamesPageStyle {
+    display: flex;
+    flex-direction: column;
+}
+
+.bodyArea {
+    flex: 1;
+    padding: 1.5rem 1rem 1.5rem 1rem;
+}
+
+@media (min-width: 768px) {
+
+    .gamesPageStyle {
+        flex-direction: row;
+    }
+
+    .bodyArea {
+        padding: 2rem 1.5rem 2rem 1.5rem
+    }
+
+}

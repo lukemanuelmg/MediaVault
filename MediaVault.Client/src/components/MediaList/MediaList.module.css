@@ -1,0 +1,13 @@
+.mediaListStyle {
+    padding: 2rem;
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(250px,1fr));  
+    gap: 2rem;
+}
+
+.textBoxStyle {
+    text-align: center;
+    font-size: 1.5rem;
+    line-height: 1.5;
+    height: fit-content;
+}

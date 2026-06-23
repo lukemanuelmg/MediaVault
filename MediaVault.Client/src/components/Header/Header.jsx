@@ -10,9 +10,9 @@ function Header() {
             <nav>
                 <ul className={styles.navList}>
                     <li><Link to="/">Home</Link></li>
-                    <li><Link to="/">Games</Link></li>
-                    <li><Link to="/">Movies</Link></li>
-                    <li><Link to="/">TV Shows</Link></li>
+                    <li><Link to="/games">Games</Link></li>
+                    <li><Link to="/movies">Movies</Link></li>
+                    <li><Link to="/tv">TV Shows</Link></li>
                 </ul>
             </nav>
         </header>
