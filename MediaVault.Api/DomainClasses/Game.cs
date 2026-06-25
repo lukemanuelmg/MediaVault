@@ -4,6 +4,8 @@ public class Game
 {
     [Key]
     public int Id { get; set; }
+
+    public int? GameBrainId { get; set; }
     
     [Required]
     [StringLength(200, MinimumLength = 1)]
@@ -12,8 +14,9 @@ public class Game
     [StringLength(200)]
     public string? Developer { get; set;}
 
-    [StringLength(200)]
-    public string? Publisher { get; set;}
+    public string? CoverArtUrl { get; set; }
     
-    public DateOnly? ReleaseDate {get; set;}
+    public int? ReleaseYear {get; set;}
+
+    
 }

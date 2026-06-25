@@ -4,7 +4,7 @@
     gap: 1rem;
 }
 
-.searchBarStyle input{
+.searchBarStyle {
     width: 35vw;
     background: var(--colour-background-light);
     color: white;
@@ -15,4 +15,18 @@
     border-color: var(--colour-static-blue);
 }
 
+.dataResultListStyle {
+    padding: 10px;
+    border: solid 1px var(--colour-static-blue);
+    display: flex;
+    flex-direction: column;
+    color: white;
+    gap: 10px;
+    overflow-y: auto;
+    max-width: 250px;
+    background: var(--colour-background-light);
+}
 
+.dataResultStyle:hover {
+    opacity: 50%;
+}

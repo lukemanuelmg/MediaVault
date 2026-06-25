@@ -1,0 +1,9 @@
+.buttonStyle {
+    border-radius: 23px;
+    font-weight: bold;
+    font-size: 1rem;
+    color: var(--colour-text);
+    padding: 0 10px 0 10px;
+    border-color: var(--colour-static-blue);
+    background-color: var(--colour-background-light);
+}

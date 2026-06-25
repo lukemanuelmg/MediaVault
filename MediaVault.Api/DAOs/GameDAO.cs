@@ -11,4 +11,11 @@ public class GameDAO
         {
             return await _context.Games.ToListAsync();
         }
+
+        public async Task<Game> AddGame(Game game)
+        {
+            await _context.Games.AddAsync(game);
+            await _context.SaveChangesAsync();
+            return game;
+        }
 }

@@ -1,0 +1,63 @@
+.innerModal {
+    display: flex;
+    flex-direction: column;
+    gap: 25px;
+    padding: 2rem;
+    height: 50vh;
+    padding: 10px;
+    background: var(--colour-background);
+}
+
+.modalStyle::backdrop {
+    background: rgba(0, 0, 0, 0.50);
+}
+
+.modalStyle {
+    background: var(--colour-background);
+    border: 1px solid var(--colour-static-blue);
+}
+
+.searchBarStyle {
+    height: 2rem;
+    font-size: 1.2rem;
+    width: auto;
+    border-radius: 0;
+    border: none;
+    color: var(--colour-text);
+    background-color: var(--colour-background-light);
+}
+
+.closeBtn {
+    border-radius: 20px;
+    width: 40px;
+    height: 40px;
+    position: absolute;
+    padding: 0;
+    right: 0;
+    top: 0;
+    margin: 15px 15px 0 0;
+}
+
+.section {
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+}
+
+.title {
+    color: var(--colour-static-blue)
+}
+
+.label {
+    margin: 0;
+    color: var(--colour-text);
+}
+
+.smallTextStyle {
+    margin: 0 0 0 0;
+    color: var(--colour-text);
+}
+
+.submitBtnStyle {
+    margin-top: auto;
+}

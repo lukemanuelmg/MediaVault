@@ -1,8 +1,8 @@
 import {Routes, Route} from 'react-router'
-import HomePage from './pages/HomePage/HomePage'
-import GamesPage from './pages/GamesPage/GamesPage'
-import MoviesPage from './pages/MoviesPage/MoviesPage'
-import TV_Page from './pages/MoviesPage copy/TV_Page'
+import HomePage from './pages/HomePage/HomePage.jsx'
+import GamesPage from './pages/GamesPage/GamesPage.jsx'
+import MoviesPage from './pages/MoviesPage/MoviesPage.jsx'
+import TV_Page from './pages/MoviesPage copy/TV_Page.jsx'
 
 function App() {
   return (
